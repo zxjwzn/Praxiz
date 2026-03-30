@@ -17,6 +17,6 @@ class LoginRequest(RequestModel):
     token: str = Field(..., description="登录令牌，登录态下由平台返回。")
     uid: str = Field(..., description="当前登录用户的 SteamID。")
     login_method: str = Field(
-        ...,
+        default="0",
         description="登录方式标识，示例值为 0，具体含义待补充。",
     )
