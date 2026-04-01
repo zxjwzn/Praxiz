@@ -1,8 +1,8 @@
-# PWHook API 文档
+# Perfectworld API 文档
 
 ## 概述
 
-`PWHook` 提供一套本地 HTTP + SSE 接口，用于：
+`Perfectworld` 提供一套本地 HTTP + SSE 接口，用于：
 
 - 主动调用平台内部 IPC 能力
 - 接收上行/下行事件推送
